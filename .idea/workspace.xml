@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f7860f4f-e98a-4267-8a2d-17aee5712787" name="Changes" comment="pom.xml build fix" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="cedeladela-cicd" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2ViX7njKeNc8mnGl7UnLQxidxaN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JPA.DatabaseSchemaImportDialog": "ad3ea607-636c-418b-9ea1-26cfefd192c6",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "temurin-17",
+    "last_opened_file_path": "/Users/zigaklun/fri/mag/rso/hookabook_app/hookabook_user",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "spring.configuration.checksum": "7c459c738de4c6976d0271ad66e02df7",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/service/src/main/java/exception/user" />
+      <recent name="$PROJECT_DIR$/service/src/main/java/exception/comment" />
+      <recent name="$PROJECT_DIR$/service/src/main/java" />
+      <recent name="$PROJECT_DIR$/api/src/main/resources" />
+      <recent name="$PROJECT_DIR$/api/src/main" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="com.cedeladela.hookabook.model" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cedeladela.hookabook" />
+      <recent name="cedeladela.hookabook.controller" />
+      <recent name="exception.hbuser" />
+      <recent name="exception.rating" />
+      <recent name="cedeladela.hookabook.service" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="entity" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cedeladela.hookabook.App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cedeladela.hookabook.App" />
+      <module name="api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cedeladela.hookabook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cedeladela.hookabook.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cedeladela.hookabook.App" />
+      <module name="service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cedeladela.hookabook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cedeladela.hookabook.App" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cedeladela.hookabook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.cedeladela.hookabook.App (1)" />
+      <item itemvalue="Application.App" />
+      <item itemvalue="Application.cedeladela.hookabook.App" />
+      <item itemvalue="Spring Boot.App" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.App" />
+        <item itemvalue="Application.cedeladela.hookabook.App" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.cedeladela.hookabook.App (1)" />
+        <item itemvalue="Spring Boot.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f7860f4f-e98a-4267-8a2d-17aee5712787" name="Changes" comment="" />
+      <created>1695319711118</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695319711118</updated>
+      <workItem from="1695319712129" duration="39000" />
+      <workItem from="1695319756345" duration="2977000" />
+      <workItem from="1695460674918" duration="6600000" />
+      <workItem from="1695577610230" duration="575000" />
+      <workItem from="1697193705441" duration="18000" />
+      <workItem from="1698409955346" duration="4317000" />
+      <workItem from="1698925023787" duration="2956000" />
+      <workItem from="1698927993491" duration="106000" />
+      <workItem from="1698928107476" duration="24000" />
+      <workItem from="1698928342404" duration="6127000" />
+      <workItem from="1698944366296" duration="333000" />
+      <workItem from="1698944962172" duration="1040000" />
+      <workItem from="1698947527144" duration="709000" />
+      <workItem from="1699015293678" duration="9556000" />
+      <workItem from="1699265810771" duration="1820000" />
+      <workItem from="1699267643419" duration="881000" />
+      <workItem from="1699268533702" duration="8616000" />
+      <workItem from="1699312054486" duration="148000" />
+      <workItem from="1699357630821" duration="3441000" />
+      <workItem from="1699619062745" duration="965000" />
+      <workItem from="1699620406850" duration="1057000" />
+      <workItem from="1699628579839" duration="138000" />
+      <workItem from="1699628725204" duration="70000" />
+      <workItem from="1700665237617" duration="29000" />
+      <workItem from="1701529025712" duration="259000" />
+      <workItem from="1701532058043" duration="7507000" />
+      <workItem from="1701693926331" duration="6524000" />
+    </task>
+    <task id="LOCAL-00001" summary="maven.yml change">
+      <option name="closed" value="true" />
+      <created>1701532580076</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701532580076</updated>
+    </task>
+    <task id="LOCAL-00002" summary="maven.yml change">
+      <option name="closed" value="true" />
+      <created>1701534945524</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701534945524</updated>
+    </task>
+    <task id="LOCAL-00003" summary="maven.yml change">
+      <option name="closed" value="true" />
+      <created>1701535609139</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701535609139</updated>
+    </task>
+    <task id="LOCAL-00004" summary="pom.xml build fix">
+      <option name="closed" value="true" />
+      <created>1701535970503</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701535970503</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="maven.yml change" />
+    <MESSAGE value="pom.xml build fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="pom.xml build fix" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

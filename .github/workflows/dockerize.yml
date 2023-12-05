@@ -36,4 +36,4 @@ jobs:
         with:
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/hookabook:user-microservice:${{ steps.current-time.outputs.formattedTime }}
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/hookabook:user-microservice_${{ steps.current-time.outputs.formattedTime }}

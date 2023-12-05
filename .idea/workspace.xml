@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7860f4f-e98a-4267-8a2d-17aee5712787" name="Changes" comment="refactor">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/dockerize.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f7860f4f-e98a-4267-8a2d-17aee5712787" name="Changes" comment="ci/cd" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -210,7 +206,7 @@
       <workItem from="1701532058043" duration="7507000" />
       <workItem from="1701693926331" duration="6524000" />
       <workItem from="1701706205827" duration="2871000" />
-      <workItem from="1701779851898" duration="1626000" />
+      <workItem from="1701779851898" duration="1997000" />
     </task>
     <task id="LOCAL-00001" summary="maven.yml change">
       <option name="closed" value="true" />
@@ -252,7 +248,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701812842907</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ci/cd">
+      <option name="closed" value="true" />
+      <created>1701813788318</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1701813788318</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,7 +277,8 @@
     <MESSAGE value="maven.yml change" />
     <MESSAGE value="pom.xml build fix" />
     <MESSAGE value="refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
+    <MESSAGE value="ci/cd" />
+    <option name="LAST_COMMIT_MESSAGE" value="ci/cd" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

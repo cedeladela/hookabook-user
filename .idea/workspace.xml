@@ -206,7 +206,7 @@
       <workItem from="1701532058043" duration="7507000" />
       <workItem from="1701693926331" duration="6524000" />
       <workItem from="1701706205827" duration="2871000" />
-      <workItem from="1701779851898" duration="1997000" />
+      <workItem from="1701779851898" duration="2340000" />
     </task>
     <task id="LOCAL-00001" summary="maven.yml change">
       <option name="closed" value="true" />
@@ -256,7 +256,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701813788318</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ci/cd">
+      <option name="closed" value="true" />
+      <created>1701814487019</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1701814487019</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

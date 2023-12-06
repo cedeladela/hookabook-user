@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7860f4f-e98a-4267-8a2d-17aee5712787" name="Changes" comment="ci/cd" />
+    <list default="true" id="f7860f4f-e98a-4267-8a2d-17aee5712787" name="Changes" comment="set db">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s/deployment-template.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/deployment.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,6 +82,9 @@
       <recent name="$PROJECT_DIR$/service/src/main/java/exception/user" />
       <recent name="$PROJECT_DIR$/service/src/main/java/exception/comment" />
       <recent name="$PROJECT_DIR$/service/src/main/java" />
+      <recent name="$PROJECT_DIR$/api/src/main/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/api/src/main/resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -206,7 +213,7 @@
       <workItem from="1701532058043" duration="7507000" />
       <workItem from="1701693926331" duration="6524000" />
       <workItem from="1701706205827" duration="2871000" />
-      <workItem from="1701779851898" duration="2340000" />
+      <workItem from="1701779851898" duration="4356000" />
     </task>
     <task id="LOCAL-00001" summary="maven.yml change">
       <option name="closed" value="true" />
@@ -264,7 +271,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701814487019</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="set db">
+      <option name="closed" value="true" />
+      <created>1701814780307</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1701814780307</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,7 +301,8 @@
     <MESSAGE value="pom.xml build fix" />
     <MESSAGE value="refactor" />
     <MESSAGE value="ci/cd" />
-    <option name="LAST_COMMIT_MESSAGE" value="ci/cd" />
+    <MESSAGE value="set db" />
+    <option name="LAST_COMMIT_MESSAGE" value="set db" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

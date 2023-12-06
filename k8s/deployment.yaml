@@ -1,0 +1,57 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hookabook-user
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hookabook-user
+  template:
+    metadata:
+      labels:
+        app: hookabook-user
+    spec:
+      containers:
+        - image: cedeladela/hookabook:user-microservice_2023-12-05-23-19-52
+          name: hookabook-user
+          env:
+            - name: DATASOURCE_CONNECTION_URL
+              value: jdbc:postgresql://cedeladela.crabdance.com:64432/hookabook
+            - name: DATASOURCE_USERNAME
+              value: hookabook
+            - name: DATASOURCE_PASSWORD
+              valueFrom: #use Kubernetes secret for storing the password
+                secretKeyRef:
+                  name: datasource-password
+                  key: password
+          ports:
+            - containerPort: 8080
+              name: server
+#          livenessProbe:
+#            httpGet:
+#              path: /health/live
+#              port: server
+#            initialDelaySeconds: 20
+#            periodSeconds: 3
+#          readinessProbe:
+#            httpGet:
+#              path: /health/ready
+#              port: server
+#            initialDelaySeconds: 20
+#            periodSeconds: 3
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: hookabook-user
+spec:
+  type: LoadBalancer
+  ports:
+    - port: 8080
+      protocol: TCP
+      targetPort: server
+  selector:
+    app: hookabook-user

@@ -14,6 +14,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/hbuser")
 @Tag(name = "HbUserCRUD")
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 public class HbUserCRUDController {
 
     private final HbUserService hbUserService;

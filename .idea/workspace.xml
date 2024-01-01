@@ -6,8 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f7860f4f-e98a-4267-8a2d-17aee5712787" name="Changes" comment="set db">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/cedeladela/hookabook/controller/HbUserCRUDController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/cedeladela/hookabook/controller/HbUserCRUDController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/cedeladela/hookabook/controller/HbUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/cedeladela/hookabook/controller/HbUserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/k8s/deployment-template.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/deployment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entity/src/main/java/cedeladela/hookabook/entity/HbUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/entity/src/main/java/cedeladela/hookabook/entity/HbUser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,37 +47,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JPA.DatabaseSchemaImportDialog": "ad3ea607-636c-418b-9ea1-26cfefd192c6",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "temurin-17",
-    "last_opened_file_path": "/Users/zigaklun/fri/mag/rso/hookabook_app/hookabook_user/.github/workflows",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
-    "spring.configuration.checksum": "7c459c738de4c6976d0271ad66e02df7",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JPA.DatabaseSchemaImportDialog&quot;: &quot;ad3ea607-636c-418b-9ea1-26cfefd192c6&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;temurin-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/zigaklun/fri/mag/rso/hookabook_app/hookabook_user&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;7c459c738de4c6976d0271ad66e02df7&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/.github/workflows" />
@@ -213,7 +215,10 @@
       <workItem from="1701532058043" duration="7507000" />
       <workItem from="1701693926331" duration="6524000" />
       <workItem from="1701706205827" duration="2871000" />
-      <workItem from="1701779851898" duration="4356000" />
+      <workItem from="1701779851898" duration="4965000" />
+      <workItem from="1703952948532" duration="3179000" />
+      <workItem from="1704129518609" duration="26000" />
+      <workItem from="1704129554586" duration="710000" />
     </task>
     <task id="LOCAL-00001" summary="maven.yml change">
       <option name="closed" value="true" />
@@ -279,7 +284,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701814780307</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="set db">
+      <option name="closed" value="true" />
+      <created>1701823147733</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1701823147733</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

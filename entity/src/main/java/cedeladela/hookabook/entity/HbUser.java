@@ -35,4 +35,7 @@ public class HbUser {
 
     @Column(name = "is_approved")
     private Boolean isApproved;
+
+    @Column(name = "is_admin")
+    private Boolean isAdmin;
 }

@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7860f4f-e98a-4267-8a2d-17aee5712787" name="Changes" comment="isAdmin">
+    <list default="true" id="f7860f4f-e98a-4267-8a2d-17aee5712787" name="Changes" comment="--platform=linux/amd64 fix">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/dockerize.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/dockerize.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/k8s/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/deployment.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,7 +109,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.App">
+  <component name="RunManager" selected="Docker.Dockerfile">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App" />
       <module name="entity" />
@@ -162,19 +162,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.cedeladela.hookabook.App (1)" />
       <item itemvalue="Application.App" />
       <item itemvalue="Application.cedeladela.hookabook.App" />
+      <item itemvalue="Docker.Dockerfile" />
       <item itemvalue="Spring Boot.App" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="Spring Boot.App" />
         <item itemvalue="Application.cedeladela.hookabook.App" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.cedeladela.hookabook.App (1)" />
-        <item itemvalue="Spring Boot.App" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +230,7 @@
       <workItem from="1701779851898" duration="4965000" />
       <workItem from="1703952948532" duration="3179000" />
       <workItem from="1704129518609" duration="26000" />
-      <workItem from="1704129554586" duration="2189000" />
+      <workItem from="1704129554586" duration="2805000" />
     </task>
     <task id="LOCAL-00001" summary="maven.yml change">
       <option name="closed" value="true" />
@@ -299,7 +312,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704146291248</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="--platform=linux/amd64 fix">
+      <option name="closed" value="true" />
+      <created>1704147769644</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1704147769644</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,7 +344,8 @@
     <MESSAGE value="ci/cd" />
     <MESSAGE value="set db" />
     <MESSAGE value="isAdmin" />
-    <option name="LAST_COMMIT_MESSAGE" value="isAdmin" />
+    <MESSAGE value="--platform=linux/amd64 fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="--platform=linux/amd64 fix" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

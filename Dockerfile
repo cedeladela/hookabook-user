@@ -3,7 +3,7 @@ COPY ./ /app
 WORKDIR /app
 RUN mvn --show-version --update-snapshots --batch-mode clean package
 
-FROM eclipse-temurin:17-jre
+FROM --platform=linux/amd64 eclipse-temurin:17-jre
 RUN mkdir /app
 WORKDIR /app
 COPY --from=build ./app/api/target/api-1.0-SNAPSHOT.jar /app

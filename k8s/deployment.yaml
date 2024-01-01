@@ -13,7 +13,7 @@ spec:
         app: hookabook-user
     spec:
       containers:
-        - image: cedeladela/hookabook:user-microservice_2023-12-05-23-19-52
+        - image: cedeladela/hookabook:user-microservice_2024-01-01-22-58-27
           name: hookabook-user
           env:
             - name: DATASOURCE_CONNECTION_URL

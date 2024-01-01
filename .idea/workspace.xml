@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7860f4f-e98a-4267-8a2d-17aee5712787" name="Changes" comment="set db">
+    <list default="true" id="f7860f4f-e98a-4267-8a2d-17aee5712787" name="Changes" comment="isAdmin">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cedeladela/hookabook/controller/HbUserCRUDController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/cedeladela/hookabook/controller/HbUserCRUDController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cedeladela/hookabook/controller/HbUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/cedeladela/hookabook/controller/HbUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entity/src/main/java/cedeladela/hookabook/entity/HbUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/entity/src/main/java/cedeladela/hookabook/entity/HbUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/deployment.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +217,7 @@
       <workItem from="1701779851898" duration="4965000" />
       <workItem from="1703952948532" duration="3179000" />
       <workItem from="1704129518609" duration="26000" />
-      <workItem from="1704129554586" duration="710000" />
+      <workItem from="1704129554586" duration="2189000" />
     </task>
     <task id="LOCAL-00001" summary="maven.yml change">
       <option name="closed" value="true" />
@@ -292,7 +291,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701823147733</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="isAdmin">
+      <option name="closed" value="true" />
+      <created>1704146291248</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1704146291248</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,7 +322,8 @@
     <MESSAGE value="refactor" />
     <MESSAGE value="ci/cd" />
     <MESSAGE value="set db" />
-    <option name="LAST_COMMIT_MESSAGE" value="set db" />
+    <MESSAGE value="isAdmin" />
+    <option name="LAST_COMMIT_MESSAGE" value="isAdmin" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

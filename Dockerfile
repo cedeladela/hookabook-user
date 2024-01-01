@@ -1,4 +1,4 @@
-FROM maven:3.8.3-openjdk-17 AS build
+FROM --platform=linux/amd64 maven:3.8.3-openjdk-17 AS build
 COPY ./ /app
 WORKDIR /app
 RUN mvn --show-version --update-snapshots --batch-mode clean package

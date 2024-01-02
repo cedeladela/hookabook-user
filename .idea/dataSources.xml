@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="hookabook@localhost" uuid="621037f3-bcce-40b4-8db4-273dd08fdc09">
+    <data-source source="LOCAL" name="hookabook@cedeladela.crabdance.com" uuid="6b2253ed-3295-44ec-af82-a90c83f7db95">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://localhost:5433/hookabook</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
-    <data-source source="LOCAL" name="yaddinee@flora.db.elephantsql.com" uuid="7b3ceebb-de43-4387-ab5f-652ee3bc8942">
-      <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://flora.db.elephantsql.com/yaddinee</jdbc-url>
+      <jdbc-url>jdbc:postgresql://cedeladela.crabdance.com:64432/hookabook</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>

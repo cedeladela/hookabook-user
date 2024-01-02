@@ -13,13 +13,13 @@ spec:
         app: hookabook-user
     spec:
       containers:
-        - image: cedeladela/hookabook:user-microservice_2024-01-02-16-52-02
+        - image: cedeladela/hookabook:user-microservice_2024-01-02-16-59-26
           name: hookabook-user
           env:
             - name: DATASOURCE_CONNECTION_URL
-              value: "jdbc:postgresql://cedeladela.crabdance.com:64432/hookabook/"
+              value: jdbc:postgresql://cedeladela.crabdance.com:64432/hookabook
             - name: DATASOURCE_USERNAME
-              value: "hookabook"
+              value: hookabook
             - name: DATASOURCE_PASSWORD
               valueFrom: #use Kubernetes secret for storing the password
                 secretKeyRef:

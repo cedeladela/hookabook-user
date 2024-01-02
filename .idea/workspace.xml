@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7860f4f-e98a-4267-8a2d-17aee5712787" name="Changes" comment="--platform=linux/amd64 fix">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/dockerize.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/dockerize.yml" afterDir="false" />
+    <list default="true" id="f7860f4f-e98a-4267-8a2d-17aee5712787" name="Changes" comment="configuration">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/k8s/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s/deployment.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,7 +107,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Docker.Dockerfile">
+  <component name="RunManager" selected="Spring Boot.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App" />
       <module name="entity" />
@@ -230,7 +228,7 @@
       <workItem from="1701779851898" duration="4965000" />
       <workItem from="1703952948532" duration="3179000" />
       <workItem from="1704129518609" duration="26000" />
-      <workItem from="1704129554586" duration="5998000" />
+      <workItem from="1704129554586" duration="7234000" />
     </task>
     <task id="LOCAL-00001" summary="maven.yml change">
       <option name="closed" value="true" />
@@ -344,7 +342,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704151898548</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="configuration">
+      <option name="closed" value="true" />
+      <created>1704209487319</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1704209487319</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,7 +375,8 @@
     <MESSAGE value="set db" />
     <MESSAGE value="isAdmin" />
     <MESSAGE value="--platform=linux/amd64 fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="--platform=linux/amd64 fix" />
+    <MESSAGE value="configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="configuration" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -35,6 +35,5 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           file: ./Dockerfile
-          platforms: linux/amd64
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/hookabook:user-microservice_${{ steps.current-time.outputs.formattedTime }}
